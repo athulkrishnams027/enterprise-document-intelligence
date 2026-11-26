@@ -1,0 +1,29 @@
+# Compiled & Build Artifacts
+backend/target/
+*.jar
+*.war
+*.ear
+frontend/dist/
+frontend/node_modules/
+*.tsbuildinfo
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+
+# Local Storage & Uploads
+storage/*
+!storage/.gitkeep
+
+# IDE & OS
+.idea/
+*.iml
+.vscode/
+.github/modernize/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

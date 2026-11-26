@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    show-sql: false
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      init:
+        pull-model-strategy: never
+    vectorstore:
+      pgvector:
+        initialize-schema: true
+
+app:
+  storage:
+    root-path: ./target/test-storage

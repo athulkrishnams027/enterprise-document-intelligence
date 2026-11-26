@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    show-sql: false
+
+logging:
+  level:
+    com.athul.documentintelligence: INFO
+    org.springframework.security: WARN
+    org.springframework.ai: INFO
